@@ -37,6 +37,24 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="flex flex-col m-3 p-3 space-y-2">
+        <hr className="w-4/5 border-1 border-white/20 mx-auto"/> 
+        <h1 className="text-xs mx-auto">
+           © 2025 PairCode. All rights reserved
+        </h1>
+        <h1 className="text-xs mx-auto">
+          Developed by&nbsp;
+          <Link
+            className="hover:cursor-pointer underline"
+            href="https://marmikpatel.com"
+          >
+            Marmik Patel
+          </Link>
+        </h1>
+      </div>
     </div>
   );
 }
+
+// for engineers: 
+// for companies: 
