@@ -86,15 +86,33 @@ export default function Home() {
                 </span>
                 <h3 className="text-md sm:text-lg">Solve Realistic Challenges</h3>
               </div>
-              
-
               <h3 className="text-sm sm:text-md text-[#fff0e1]">Create solutions to real-world engineering problems. Each question requires real technical decisions and tradeoffs.</h3>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="flex flex-col m-3 p-3 space-y-2">
+      {/**Pricing */}
+      <div className="max-w-6xl mx-auto mt-10 pb-12"> 
+        <div className="flex flex-col space-y-2 m-6">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl mx-auto mt-14">Afforable Pricing</h1>
+          <h3 className="text-md sm:text-lg mx-auto text-[#fff0e1]">Start for free. Upgrade when you're ready.</h3>
+        </div>
+        <div className="flex flex-row space-x-6 mt-12 pl-6 pr-6 justify-center">
+          <div className="bg-[#171717] border rounded-md border-1 border-white/30 p-6 w-1/2 max-w-md">
+            <div className="flex flex-col space-y-4 items-start">
+              <h3 className="text-md sm:text-lg">Free</h3>
+              <h3 className="text-sm sm:text-md text-[#fff0e1]">One problem a month with full AI editor experience</h3>
+            </div>
+          </div>
+          <div className="bg-[#171717] border rounded-md border-1 border-white/30 p-6 w-1/2 max-w-md">
+            <div className="flex flex-col space-y-4 items-start">
+              <h3 className="text-md sm:text-lg">Premium</h3>
+              <h3 className="text-sm sm:text-md text-[#fff0e1]">Unlimited questions and full access to AI editor. $20/month</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col m-3 p-3 space-y-2 mt-10">
         <hr className="w-4/5 border-1 border-white/20 mx-auto"/> 
         <h1 className="text-xs mx-auto">
            © 2025 PairCode. All rights reserved
