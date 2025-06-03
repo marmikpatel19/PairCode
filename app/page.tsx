@@ -35,12 +35,53 @@ export default function Home() {
               Sign Up
             </Link>
           </div>
+
+          {/** Add graphic of using live problem */}
+
         </div>
       </div>
-
-
-
-
+      {/** the Problem */}
+      <div className="max-w-6xl mx-auto mt-10 pb-12"> 
+        <div className="flex flex-col space-y-2 m-6">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl mx-auto mt-14">Current Interview Prep is Broken</h1>
+          <h3 className="text-md sm:text-lg mx-auto text-[#fff0e1]">Leetcode puzzles don't reflect how engineers actually work</h3>
+        </div>
+        <div className="border rounded-2xl border-3 border-white/30 p-6 mx-auto w-9/10">
+          <div className="flex flex-col space-y-5">
+            <div className="flex flex-col space-y-2 items-start">
+              <div className="flex flex-row space-x-2 items-center">                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-[#FF4C38]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+                <h3 className="text-md sm:text-lg">Real Engineers Don't Work Alone</h3>
+              </div>
+              <h3 className="text-sm sm:text-md text-[#fff0e1]">Coding class assignments and leetcode solutions alone is far from reality: pairing, reviewing, and designing together are vital.</h3>
+            </div>
+          </div>
+          <div className="flex flex-col space-y-5 mt-12">
+            <div className="flex flex-col space-y-2 items-start">
+              <div className="flex flex-row space-x-2 items-center">                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-[#FF4C38]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+                <h3 className="text-md sm:text-lg">Silly Puzzles Don't Reflect Real Problems</h3>
+              </div>
+              <h3 className="text-sm sm:text-md text-[#fff0e1]">Creating an alien dictionary or maximizing houses robbed will only sound cool to tech bros in your CS class, not a PM that wants a real product.</h3>
+            </div>
+          </div>
+          <div className="flex flex-col space-y-5 mt-12">
+            <div className="flex flex-col space-y-2 items-start">
+              <div className="flex flex-row space-x-2 items-center">                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-[#FF4C38]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+                <h3 className="text-md sm:text-lg">Great Engineers Don’t Cram Algorithms</h3>
+              </div>
+              <h3 className="text-sm sm:text-md text-[#fff0e1]">Memorizing how to implement top-down DP in Java won't translate to real work.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
       {/** the solution */}
       <div className="max-w-6xl mx-auto mt-10 pb-12 bg-[#1F0E06]"> 
         <div className="flex flex-col space-y-2 m-6">
@@ -59,6 +100,9 @@ export default function Home() {
                 </span>
                 <h3 className="text-md sm:text-lg">Collaborate with AI</h3>
               </div>
+
+              {/** Add graphic of using code editor to ask for feedback*/}
+
               <h3 className="text-sm sm:text-md text-[#fff0e1]">Use a Cursor-like AI coding agent to discuss problems, ask for feedback, and write code.</h3>
             </div>
           </div>
@@ -70,9 +114,12 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
                   </svg>
                 </span>
+
+                {/** Add graphic of user with in-line comments of problem decomposition*/}
+
                 <h3 className="text-md sm:text-lg">Focus on Problem Solving</h3>
               </div>
-              <h3 className="text-sm sm:text-md text-[#fff0e1]">Practice understanding a problem and its decomposing technical requirements instead of syntax and code.</h3>
+              <h3 className="text-sm sm:text-md text-[#fff0e1]">Practice understanding a problem and decomposing its technical requirements instead of syntax and code.</h3>
             </div>
           </div>   
           <div className="bg-[#171717] border rounded-md border-1 border-white/30 p-6 mx-auto w-9/10">
@@ -84,6 +131,9 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.867 19.125h.008v.008h-.008v-.008Z" />
                   </svg>
                 </span>
+
+                {/** Add graphic of a problem*/}
+
                 <h3 className="text-md sm:text-lg">Solve Realistic Challenges</h3>
               </div>
               <h3 className="text-sm sm:text-md text-[#fff0e1]">Create solutions to real-world engineering problems. Each question requires real technical decisions and tradeoffs.</h3>
@@ -130,6 +180,3 @@ export default function Home() {
     </div>
   );
 }
-
-// for engineers: 
-// for companies: 
